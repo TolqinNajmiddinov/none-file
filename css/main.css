@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  height: 800px;
+  background-image: url(../images/navbarbackimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header nav {
+  margin: 0 auto;
+  width: 1000px;
+  margin-top: 60px;
+  color: white;
+  display: flex;
+  gap: 271px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+header nav ul .navbar__item a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+header nav ul select {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+header nav ul select option {
+  color: rgb(17, 78, 134);
+}
+header .hero__item {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+}
+header .hero__item p {
+  width: 665px;
+  height: 108px;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+  margin-top: 250px;
+}
+header .hero__item button {
+  width: 248px;
+  height: 62px;
+  border-radius: 8px;
+  background-color: rgb(17, 78, 134);
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.hero__text {
+  margin-top: 120px;
+  text-align: center;
+}
+.hero__text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.hero__text span {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: start;
+  width: 970px;
+  height: auto;
+  gap: 30px;
+}
+
+.drivers {
+  text-align: center;
+  margin-top: 120px;
+}
+.drivers h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 85px;
+}
+.drivers .drivers__card {
+  margin: 0 auto;
+  width: 1000px;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.drivers .drivers__card .driver {
+  overflow: hidden;
+  width: 370px;
+  height: 460px;
+  padding: 50px;
+  border-radius: 8px;
+  border: 2px solid rgb(167, 167, 167);
+}
+.drivers .drivers__card .driver .about {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 18px;
+  margin-top: 35px;
+}
+.drivers .drivers__card .driver .narx {
+  margin-top: 60px;
+  margin-left: 130px;
+  color: blue;
+  font-weight: 600;
+  font-size: 16px;
+}
+.drivers .driver:hover {
+  background-color: rgb(17, 78, 134);
+  color: white;
+  overflow: hidden;
+  width: 370px;
+  height: 460px;
+  padding: 50px;
+  border-radius: 8px;
+  border: 1px solid rgb(167, 167, 167);
+}
+.drivers .driver:hover .narx {
+  color: white;
+}
+
+footer {
+  height: 600px;
+  margin-top: 150px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+footer .communication {
+  margin: 0 auto;
+  display: flex;
+  width: 1000px;
+  color: white;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+footer .communication p {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+footer .communication .aloqa {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 250px;
+}
+footer .communication .aloqa li > a {
+  text-decoration: none;
+  color: white;
+}
+footer .communication .menyu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .communication .support {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+footer .communication .support .support__item {
+  width: 350px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  padding-left: 15px;
+  background-color: rgb(90, 89, 89);
+}
+footer .communication .support .support__item::-moz-placeholder {
+  color: white;
+}
+footer .communication .support .support__item::placeholder {
+  color: white;
+}
+footer .communication .support button {
+  width: 350px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+footer .networks {
+  margin: 0 auto;
+  display: flex;
+  width: 1000px;
+  color: white;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+footer .networks ul {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+footer .networks ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+footer .networks ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(17, 78, 134);
+}/*# sourceMappingURL=main.css.map */

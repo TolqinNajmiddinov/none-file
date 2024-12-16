@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    height: 800px;
+    background-image: url(../images/navbarbackimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    nav {
+        margin: 0 auto;
+        width: 1000px;
+        margin-top: 60px;
+        color: white;
+        display: flex;
+        gap: 271px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 55px;
+
+            .navbar__item a {
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: $ftnormal;
+            }
+
+            select {
+                background: none;
+                border: none;
+                font-size: 20px;
+                font-weight: $ftnormal;
+                color: white;
+
+                option {
+                    color: $darkblue;
+                }
+            }
+        }
+    }
+
+    .hero__item {
+        margin: 0 auto;
+        width: 1000px;
+        height: auto;
+
+        p {
+            width: 665px;
+            height: 108px;
+            font-weight: $ftbold;
+            font-size: 36px;
+            color: white;
+            margin-top: 250px;
+        }
+
+        button {
+            width: 248px;
+            height: 62px;
+            border-radius: 8px;
+            background-color: $darkblue;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            font-weight: $ftmedium;
+            margin-top: 50px;
+        }
+    }
+
+}
